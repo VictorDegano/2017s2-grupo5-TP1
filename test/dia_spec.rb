@@ -36,11 +36,11 @@ describe 'Simulacion Dia Laboral Verano' do
                                        .setDiaLaboral}
   let (:parcela_1) {Parcela.new 0, 0, 1000}
   let (:unaConstruccion_Planta_Solar_Privada) {Construccion.new(parcela_1,1)
-                                                                   .extend(Privada)
-                                                                   .extend(Planta)
-                                                                   .extend(Solar)
-                                                                   .setEmpleados(20)
-                                                                   .setKwPorHoraIdeal(10)}
+                                                   .extend(Privada)
+                                                   .extend(Planta)
+                                                   .extend(Solar)
+                                                   .setEmpleados(20)
+                                                   .setKwPorHoraIdeal(10)}
   let (:parcela_2) {Parcela.new 1, 0, 1500}
   let (:parcela_3) {Parcela.new 2, 0, 1500}
   let (:parcela_4) {Parcela.new 3, 0, 1500}
@@ -55,19 +55,19 @@ describe 'Simulacion Dia Laboral Verano' do
   let (:parcela_6){Parcela.new 0, 1, 1500}
 
   let (:hogarConsciente_1) {Construccion.new(parcela_6, 0)
-                                                              .extend(Residencia)
-                                                              .setCantidadDeMiembrosDeResidencia(4)
-                                                              .setConsumoPorDefecto(unaCondicionDeSimulacion)
-                                                              .extend(Consciente)
-                                                              .setCotaDeConsumo(9)}
+                                .extend(Residencia)
+                                .setCantidadDeMiembrosDeResidencia(4)
+                                .setConsumoPorDefecto(unaCondicionDeSimulacion)
+                                .extend(Consciente)
+                                .setCotaDeConsumo(9)}
 
   let (:parcela_7){Parcela.new 1, 1, 1500}
   let (:hogarConsciente_2) {Construccion.new(parcela_7, 0)
-                                                .extend(Residencia)
-                                                .setCantidadDeMiembrosDeResidencia(6)
-                                                .setConsumoPorDefecto(unaCondicionDeSimulacion)
-                                                .extend(Consciente)
-                                                .setCotaDeConsumo(20)}
+                                .extend(Residencia)
+                                .setCantidadDeMiembrosDeResidencia(6)
+                                .setConsumoPorDefecto(unaCondicionDeSimulacion)
+                                .extend(Consciente)
+                                .setCotaDeConsumo(20)}
 
   let (:parcela_8){Parcela.new 2, 1, 1500}
   let (:hogarConsciente_3) {Construccion.new(parcela_8, 0)
@@ -94,11 +94,11 @@ describe 'Simulacion Dia Laboral Verano' do
 
   let (:parcela_11) {Parcela.new 0, 2, 1200}
   let (:hogarDerrochador_1) {Construccion.new(parcela_11, 0)
-                                                      .extend(Residencia)
-                                                      .setCantidadDeMiembrosDeResidencia(4)
-                                                      .setConsumoPorDefecto(unaCondicionDeSimulacion)
-                                                      .extend(Derrochador)
-                                                      .setConsumoExtra(6)}
+                                 .extend(Residencia)
+                                 .setCantidadDeMiembrosDeResidencia(4)
+                                 .setConsumoPorDefecto(unaCondicionDeSimulacion)
+                                 .extend(Derrochador)
+                                 .setConsumoExtra(6)}
 
   let (:parcela_12) {Parcela.new 1, 2, 1200}
   let (:hogarDerrochador_2) {Construccion.new(parcela_12, 0)
@@ -129,8 +129,8 @@ describe 'Simulacion Dia Laboral Verano' do
 
   let (:parcela_16){Parcela.new 0, 3, 1200}
   let (:ecogranja_1) {Construccion .new(parcela_16, 1)
-                                   .extend(Granja)
-                                   .extend(EcoGranja).setProduccionBaseFija(5)}
+                          .extend(Granja)
+                          .extend(EcoGranja).setProduccionBaseFija(5)}
 
   let (:parcela_17) {Parcela.new 1, 3, 1000}
 
@@ -159,11 +159,11 @@ describe 'Simulacion Dia Laboral Verano' do
 
   let (:parcela_21){Parcela.new 0, 4, 1000}
   let (:holding_Solar_1) {Construccion .new(parcela_21, 2)
-                                       .extend(Granja)
-                                       .extend(Holding)
-                                       .extend(Solar)
-                                       .setGradoDeAutomatizacion(30)
-                                       .setKwPorHoraIdeal(3)}
+                              .extend(Granja)
+                              .extend(Holding)
+                              .extend(Solar)
+                              .setGradoDeAutomatizacion(30)
+                              .setKwPorHoraIdeal(3)}
 
   let (:parcela_22){Parcela.new 1, 4, 1000}
 
@@ -193,14 +193,33 @@ describe 'Simulacion Dia Laboral Verano' do
   let(:ciudad) {Ciudad.new(5, 5)}
   it'Se verifica que cada construccion genere energia, consuma energia y/o produsca alimento segun la condicion'do
     ciudad.agregarParcela(parcela_1).agregarParcela(parcela_2).agregarParcela(parcela_3)
-          .agregarParcela(parcela_4).agregarParcela(parcela_5).agregarParcela(parcela_6)
-          .agregarParcela(parcela_7).agregarParcela(parcela_8).agregarParcela(parcela_9)
-          .agregarParcela(parcela_10).agregarParcela(parcela_11).agregarParcela(parcela_12)
-          .agregarParcela(parcela_13).agregarParcela(parcela_14).agregarParcela(parcela_15)
-          .agregarParcela(parcela_16).agregarParcela(parcela_17).agregarParcela(parcela_18)
-          .agregarParcela(parcela_19).agregarParcela(parcela_20).agregarParcela(parcela_21)
-          .agregarParcela(parcela_22).agregarParcela(parcela_23).agregarParcela(parcela_24)
-          .agregarParcela(parcela_25)
+        .agregarParcela(parcela_4).agregarParcela(parcela_5).agregarParcela(parcela_6)
+        .agregarParcela(parcela_7).agregarParcela(parcela_8).agregarParcela(parcela_9)
+        .agregarParcela(parcela_10).agregarParcela(parcela_11).agregarParcela(parcela_12)
+        .agregarParcela(parcela_13).agregarParcela(parcela_14).agregarParcela(parcela_15)
+        .agregarParcela(parcela_16).agregarParcela(parcela_17).agregarParcela(parcela_18)
+        .agregarParcela(parcela_19).agregarParcela(parcela_20).agregarParcela(parcela_21)
+        .agregarParcela(parcela_22).agregarParcela(parcela_23).agregarParcela(parcela_24)
+        .agregarParcela(parcela_25)
+
+    ciudad.agregarConstruccion(unaConstruccion_Planta_Solar_Privada)
+        .agregarConstruccion(planta_Eolica_Privada_1)
+        .agregarConstruccion(hogarConsciente_1)
+        .agregarConstruccion(hogarConsciente_2)
+        .agregarConstruccion(hogarConsciente_3)
+        .agregarConstruccion(hogarConsciente_4)
+        .agregarConstruccion(hogarDerrochador_1)
+        .agregarConstruccion(hogarDerrochador_2)
+        .agregarConstruccion(hogarDerrochador_3)
+        .agregarConstruccion(hogarDerrochador_4)
+        .agregarConstruccion(hogarDerrochador_5)
+        .agregarConstruccion(granja_Holding_Eolica)
+        .agregarConstruccion(planta_Normal_Privada_1)
+        .agregarConstruccion(ecogranja_1)
+        .agregarConstruccion(holding_Solar_1)
+        .agregarConstruccion(granja_Familiar_Consciente_1)
+        .agregarConstruccion(planta_Solar_Publica_1)
+        .agregarConstruccion(planta_Eolica_Publica_1)
 
     unaConstruccion_Planta_Solar_Privada.generarEnergia(unaCondicionDeSimulacion)
     expect(unaConstruccion_Planta_Solar_Privada.energiaGenerada()).to eq(70.2)
@@ -238,5 +257,11 @@ describe 'Simulacion Dia Laboral Verano' do
     expect(granja_Familiar_Consciente_1.consumoTotalDeEnergia()).to eq(1.8)
 
     unaConstruccion_Planta_Solar_Privada.generarEnergia(unaCondicionDeSimulacion)
+
+    expect(ciudad.kwProducidos).to eq(533.4)
+    expect(ciudad.kwConsumidos).to eq(276.8)
+    expect(ciudad.balanceEnergetico).to eq(256.6)
+
+
   end
 end

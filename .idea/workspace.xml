@@ -1,0 +1,868 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fc7f9fe7-07f9-471f-87c8-eef59b099928" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/SinCity2@Residencia_hogar_consciente_en_primavera_y_otoño__SinCity2.coverage" NAME="Residencia hogar consciente en primavera y otoño: SinCity2 Coverage Results" MODIFIED="1505323880972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="SinCity2" />
+    <SUITE FILE_PATH="coverage/SinCity2@Planta_tipo_Normal_Publica_con_20_empleados_y_2kws_h_por_empleado__en_un_dia_genera_960Kw_Dia__SinCity2.coverage" NAME="Planta tipo Normal Publica con 20 empleados y 2kws/h por empleado, en un dia genera 960Kw/Dia: SinCity2 Coverage Results" MODIFIED="1505314815736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="SinCity2" />
+    <SUITE FILE_PATH="coverage/SinCity2@All_tests_in_test__SinCity2.coverage" NAME="All tests in test: SinCity2 Coverage Results" MODIFIED="1504886062632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="SinCity2" />
+    <SUITE FILE_PATH="coverage/SinCity2@Planta_tipo_Normal_privada__SinCity2.coverage" NAME="Planta tipo Normal privada: SinCity2 Coverage Results" MODIFIED="1505320136824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="SinCity2" />
+    <SUITE FILE_PATH="coverage/SinCity2@Residencia_hogar_consciente_en_verano_un_hogar_con_4_miembros_con_perfil_consciente_y_una_cota_de_20kw_dia__en_verano_consumen_8kw_por_dia__SinCity2.coverage" NAME="Residencia hogar consciente en verano un hogar con 4 miembros con perfil consciente y una cota de 20kw/dia, en verano consumen 8kw por dia: SinCity2 Coverage Results" MODIFIED="1505321840910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="SinCity2" />
+    <SUITE FILE_PATH="coverage/SinCity2@Planta_tipo_Eolica_Publica_con_20_empleados__viento_de_15km_h_y_diferencia_maxiam_de_altura_de_1400_y_un_precio_mundial_de_KW_mayor_a_dia__una_________planta_Solar_Privada_genera_63kw__SinCity2.coverage" NAME="Planta tipo Eolica Publica con 20 empleados, viento de 15km/h y diferencia maxiam de altura de 1400 y un precio mundial de KW mayor a dia, una&#10;        planta Solar Privada genera 63kw: SinCity2 Coverage Results" MODIFIED="1505319838282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="SinCity2" />
+    <SUITE FILE_PATH="coverage/SinCity2@Residencia_hogar_consciente_en_verano_un_hogar_con_4_miembros_con_perfil_consciente_y_una_cota_de_6kw_dia__en_verano_consume_6kw_dia__SinCity2.coverage" NAME="Residencia hogar consciente en verano un hogar con 4 miembros con perfil consciente y una cota de 6kw/dia, en verano consume 6kw/dia: SinCity2 Coverage Results" MODIFIED="1505321888083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="SinCity2" />
+    <SUITE FILE_PATH="coverage/SinCity2@Simulacion_Dia_jajaja__SinCity2.coverage" NAME="Simulacion Dia jajaja: SinCity2 Coverage Results" MODIFIED="1505780780027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="SinCity2" />
+    <SUITE FILE_PATH="coverage/SinCity2@Run_spec__Granja_spec___SinCity2.coverage" NAME="Run spec 'Granja_spec': SinCity2 Coverage Results" MODIFIED="1505846873513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="SinCity2" />
+    <SUITE FILE_PATH="coverage/SinCity2@Planta_tipo_Solar_Privada_con_20_empleados__10kws_h_ideal__20__de_nubosidad__altura_de_parcela_1000_y_en_verano__genera_15_6kw__SinCity2.coverage" NAME="Planta tipo Solar Privada con 20 empleados, 10kws/h ideal, 20% de nubosidad, altura de parcela 1000 y en verano, genera 15.6kw: SinCity2 Coverage Results" MODIFIED="1505320236988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="SinCity2" />
+    <SUITE FILE_PATH="coverage/SinCity2@Planta_tipo_Solar_Publica_con_20_empleados__10kws_h_ideal__20__de_nubosidad__altura_de_parcela_0__en_verano_y_en_un_dia_feriado__una_planta_________solar_publica_genera_1_3kw__SinCity2.coverage" NAME="Planta tipo Solar Publica con 20 empleados, 10kws/h ideal, 20% de nubosidad, altura de parcela 0, en verano y en un dia feriado, una planta&#10;        solar publica genera 1.3kw: SinCity2 Coverage Results" MODIFIED="1505315254851" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="SinCity2" />
+    <SUITE FILE_PATH="coverage/SinCity2@Residencia_hogar_derrochador_en_primavera_un_hogar_c_on_4_miembros_con_perfil_derrochador_y_un_consumo_extra_de_6kw_dia__en_primavera_consume_14kw_dia__SinCity2.coverage" NAME="Residencia hogar derrochador en primavera un hogar c.on 4 miembros con perfil derrochador y un consumo extra de 6kw/dia, en primavera consume 14kw/dia: SinCity2 Coverage Results" MODIFIED="1505323848014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="SinCity2" />
+    <SUITE FILE_PATH="coverage/SinCity2@Run_spec__Planta_spec___SinCity2.coverage" NAME="Run spec 'Planta_spec': SinCity2 Coverage Results" MODIFIED="1505853005416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="SinCity2" />
+    <SUITE FILE_PATH="coverage/SinCity2@Run_spec__Ciudad_spec___SinCity2.coverage" NAME="Run spec 'Ciudad_spec': SinCity2 Coverage Results" MODIFIED="1505852871058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="SinCity2" />
+    <SUITE FILE_PATH="coverage/SinCity2@Residencia_hogar_derrochador_en_verano_un_hogar_con_4_miembros_con_perfil_derrochador_y_un_consumo_extra_de_6kw_dia__en_verano_consume_14kw_dia__SinCity2.coverage" NAME="Residencia hogar derrochador en verano un hogar con 4 miembros con perfil derrochador y un consumo extra de 6kw/dia, en verano consume 14kw/dia: SinCity2 Coverage Results" MODIFIED="1505323747373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="SinCity2" />
+    <SUITE FILE_PATH="coverage/SinCity2@Planta_tipo_Solar_Privada_con_20_empleados__10kws_h_ideal__20__de_nubosidad__altura_de_parcela_1000__en_verano_pero_con_un_precio_mundial_de_KW_menor_a_10__________una_planta_Solar_Privada_no_genera_energia__SinCity2.coverage" NAME="Planta tipo Solar Privada con 20 empleados, 10kws/h ideal, 20% de nubosidad, altura de parcela 1000, en verano pero con un precio mundial de KW menor a 10,&#10;        una planta Solar Privada no genera energia: SinCity2 Coverage Results" MODIFIED="1505320596468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="SinCity2" />
+    <SUITE FILE_PATH="coverage/SinCity2@Planta_tipo_Eolica_con_20_empleados__viento_de_15km_h_y_diferencia_maxima_de_altura_de_1400_y_en_dia_feriado__una_planta_solar_publica_genera_31_5kw__SinCity2.coverage" NAME="Planta tipo Eolica con 20 empleados, viento de 15km/h y diferencia maxima de altura de 1400 y en dia feriado, una planta solar publica genera 31.5kw: SinCity2 Coverage Results" MODIFIED="1505315730230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="SinCity2" />
+    <SUITE FILE_PATH="coverage/SinCity2@Planta_tipo_Solar_Privada_con_20_empleados__10kws_h_ideal__20__de_nubosidad__altura_de_parcela_0_y_en_verano__genera_2_6kw__SinCity2.coverage" NAME="Planta tipo Solar Privada con 20 empleados, 10kws/h ideal, 20% de nubosidad, altura de parcela 0 y en verano, genera 2.6kw: SinCity2 Coverage Results" MODIFIED="1505320337711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="SinCity2" />
+    <SUITE FILE_PATH="coverage/SinCity2@Planta_tipo_Normal_privada_con_20_empleaos_y_2kws_h_por_empleado__una_planta_normal_publica_en_dia_feriado_genera_el_480Kw_Dia__SinCity2.coverage" NAME="Planta tipo Normal privada con 20 empleaos y 2kws/h por empleado, una planta normal publica en dia feriado genera el 480Kw/Dia: SinCity2 Coverage Results" MODIFIED="1505319531335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="SinCity2" />
+    <SUITE FILE_PATH="coverage/SinCity2@Simulacion_Dia_Laboral_Verano_jajaja__SinCity2.coverage" NAME="Simulacion Dia Laboral Verano jajaja: SinCity2 Coverage Results" MODIFIED="1505781936356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="SinCity2" />
+    <SUITE FILE_PATH="coverage/2017s2_grupo5_TP1@Run_spec__Ciudad_spec___SinCity2.coverage" NAME="Run spec 'Ciudad_spec': SinCity2 Coverage Results" MODIFIED="1505910755661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="SinCity2" />
+    <SUITE FILE_PATH="coverage/SinCity2@Residencia_hogar_consciente_en_primavera_y_otoño_un_hogar_con_4_miembros_con_perfil_consciente_y_una_cota_de_20kw_dia__en_primavera_consume_4kw_dia__SinCity2.coverage" NAME="Residencia hogar consciente en primavera y otoño un hogar con 4 miembros con perfil consciente y una cota de 20kw/dia, en primavera consume 4kw/dia: SinCity2 Coverage Results" MODIFIED="1505322645093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="SinCity2" />
+    <SUITE FILE_PATH="coverage/2017s2_grupo5_TP1@Run_spec__Planta_spec___SinCity2.coverage" NAME="Run spec 'Planta_spec': SinCity2 Coverage Results" MODIFIED="1505910736333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="SinCity2" />
+    <SUITE FILE_PATH="coverage/SinCity2@Run_spec__de_prueba_spec___SinCity2.coverage" NAME="Run spec 'de prueba_spec': SinCity2 Coverage Results" MODIFIED="1505411911424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="SinCity2" />
+    <SUITE FILE_PATH="coverage/SinCity2@Planta_tipo_Normal_Publica__SinCity2.coverage" NAME="Planta tipo Normal Publica: SinCity2 Coverage Results" MODIFIED="1505320069711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="SinCity2" />
+    <SUITE FILE_PATH="coverage/SinCity2@Run_spec__board_spec___SinCity2.coverage" NAME="Run spec 'board_spec': SinCity2 Coverage Results" MODIFIED="1505846883845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="SinCity2" />
+    <SUITE FILE_PATH="coverage/SinCity2@Planta_tipo_Solar_Publica_con_20_empleados__10kws_h_ideal__20__de_nubosidad__altura_de_parcela_1000_y_en_verano__genera_15_6kw__SinCity2.coverage" NAME="Planta tipo Solar Publica con 20 empleados, 10kws/h ideal, 20% de nubosidad, altura de parcela 1000 y en verano, genera 15.6kw: SinCity2 Coverage Results" MODIFIED="1505314131350" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="SinCity2" />
+    <SUITE FILE_PATH="coverage/SinCity2@Planta_tipo_Eolica_Privada__SinCity2.coverage" NAME="Planta tipo Eolica Privada: SinCity2 Coverage Results" MODIFIED="1505320970076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="SinCity2" />
+    <SUITE FILE_PATH="coverage/SinCity2@Planta_tipo_Eolica_con_20_empleados__viento_de_15km_h_y_diferencia_maxiam_de_altura_de_1400__genera_63kw__SinCity2.coverage" NAME="Planta tipo Eolica con 20 empleados, viento de 15km/h y diferencia maxiam de altura de 1400, genera 63kw: SinCity2 Coverage Results" MODIFIED="1505315702533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="SinCity2" />
+    <SUITE FILE_PATH="coverage/SinCity2@Planta_tipo_Normal_Publica_con_20_empleaos_y_2kws_h_por_empleado__una_planta_normal_publica_en_dia_feriado_genera_el_480Kw_Dia__SinCity2.coverage" NAME="Planta tipo Normal Publica con 20 empleaos y 2kws/h por empleado, una planta normal publica en dia feriado genera el 480Kw/Dia: SinCity2 Coverage Results" MODIFIED="1505314846854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="SinCity2" />
+    <SUITE FILE_PATH="coverage/SinCity2@IRB_console__SinCity2.coverage" NAME="IRB console: SinCity2 Coverage Results" MODIFIED="1505487680649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="SinCity2" />
+    <SUITE FILE_PATH="coverage/2017s2_grupo5_TP1@Run_spec__Residencia_spec___SinCity2.coverage" NAME="Run spec 'Residencia_spec': SinCity2 Coverage Results" MODIFIED="1505910455929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="SinCity2" />
+    <SUITE FILE_PATH="coverage/SinCity2@Simulacion_Dia_Laboral_Verano__SinCity2.coverage" NAME="Simulacion Dia Laboral Verano: SinCity2 Coverage Results" MODIFIED="1505784334237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="SinCity2" />
+    <SUITE FILE_PATH="coverage/SinCity2@Planta_tipo_Solar_Publica__SinCity2.coverage" NAME="Planta tipo Solar Publica: SinCity2 Coverage Results" MODIFIED="1505320082333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="SinCity2" />
+    <SUITE FILE_PATH="coverage/SinCity2@Planta_tipo_Normal_privada_con_20_empleados_y_2kws_h_por_empleado__en_un_dia_genera_960Kw_Dia__SinCity2.coverage" NAME="Planta tipo Normal privada con 20 empleados y 2kws/h por empleado, en un dia genera 960Kw/Dia: SinCity2 Coverage Results" MODIFIED="1505318206813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="SinCity2" />
+    <SUITE FILE_PATH="coverage/SinCity2@Planta_tipo_Solar_Privada_con_20_empleados__10kws_h_ideal__20__de_nubosidad__altura_de_parcela_1000_y_en_verano_y_un_precio_mundial_de_KW_mayor_a_10__________una_planta_Solar_Privada_genera_15_6kw__SinCity2.coverage" NAME="Planta tipo Solar Privada con 20 empleados, 10kws/h ideal, 20% de nubosidad, altura de parcela 1000 y en verano y un precio mundial de KW mayor a 10,&#10;        una planta Solar Privada genera 15.6kw: SinCity2 Coverage Results" MODIFIED="1505320316906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="SinCity2" />
+    <SUITE FILE_PATH="coverage/2017s2_grupo5_TP1@Run_spec__Granja_spec___SinCity2.coverage" NAME="Run spec 'Granja_spec': SinCity2 Coverage Results" MODIFIED="1505910739905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="SinCity2" />
+    <SUITE FILE_PATH="coverage/SinCity2@Simulacion_Dia_Laboral_Verano______________SinCity2.coverage" NAME="Simulacion Dia Laboral Verano ...........: SinCity2 Coverage Results" MODIFIED="1505784610002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="SinCity2" />
+    <SUITE FILE_PATH="coverage/SinCity2@Run_spec__Parcela_spec___SinCity2.coverage" NAME="Run spec 'Parcela_spec': SinCity2 Coverage Results" MODIFIED="1504886088804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="SinCity2" />
+    <SUITE FILE_PATH="coverage/SinCity2@Residencia_hogar_consciente_en_verano__SinCity2.coverage" NAME="Residencia hogar consciente en verano: SinCity2 Coverage Results" MODIFIED="1505322853618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="SinCity2" />
+    <SUITE FILE_PATH="coverage/SinCity2@Residencia_hogar_consciente_en_primavera_y_otoño_un_hogar_con_4_miembros_con_perfil_consciente_y_una_cota_de_20kw_dia__en_primavera_y_otoño_consume_4kw_dia__SinCity2.coverage" NAME="Residencia hogar consciente en primavera y otoño un hogar con 4 miembros con perfil consciente y una cota de 20kw/dia, en primavera y otoño consume 4kw/dia: SinCity2 Coverage Results" MODIFIED="1505323236899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="SinCity2" />
+    <SUITE FILE_PATH="coverage/SinCity2@Run_spec__Residencia_spec___SinCity2.coverage" NAME="Run spec 'Residencia_spec': SinCity2 Coverage Results" MODIFIED="1505852999436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="SinCity2" />
+    <SUITE FILE_PATH="coverage/SinCity2@Planta_tipo_Solar_Publica_con_20_empleados__10kws_h_ideal__20__de_nubosidad__altura_de_parcela_0_y_en_verano__genera_2_6kw__SinCity2.coverage" NAME="Planta tipo Solar Publica con 20 empleados, 10kws/h ideal, 20% de nubosidad, altura de parcela 0 y en verano, genera 2.6kw: SinCity2 Coverage Results" MODIFIED="1505314159743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="SinCity2" />
+    <SUITE FILE_PATH="coverage/SinCity2@Planta_tipo_Eolica_Publica__SinCity2.coverage" NAME="Planta tipo Eolica Publica: SinCity2 Coverage Results" MODIFIED="1505320114414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="SinCity2" />
+    <SUITE FILE_PATH="coverage/SinCity2@Residencia_hogar_derrochador_en_primavera_un_hogar_con_4_miembros_con_perfil_derrochador_y_un_consumo_extra_de_6kw_dia__en_primavera_consume_14kw_dia__SinCity2.coverage" NAME="Residencia hogar derrochador en primavera un hogar con 4 miembros con perfil derrochador y un consumo extra de 6kw/dia, en primavera consume 14kw/dia: SinCity2 Coverage Results" MODIFIED="1505323651391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="SinCity2" />
+    <SUITE FILE_PATH="coverage/SinCity2@Run_spec__dia_spec___SinCity2.coverage" NAME="Run spec 'dia_spec': SinCity2 Coverage Results" MODIFIED="1505846889215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="SinCity2" />
+    <SUITE FILE_PATH="coverage/SinCity2@Planta_tipo_Solar_Publica_con_20_empleados__10kws_h_ideal__20__de_nubosidad__altura_de_parcela_1000__en_verano_y_en_un_dia_feriado__________uan_planta_solar_genera_genera_7_8kw__SinCity2.coverage" NAME="Planta tipo Solar Publica con 20 empleados, 10kws/h ideal, 20% de nubosidad, altura de parcela 1000, en verano y en un dia feriado,&#10;        uan planta solar genera genera 7.8kw: SinCity2 Coverage Results" MODIFIED="1505315118376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="SinCity2" />
+    <SUITE FILE_PATH="coverage/2017s2_grupo5_TP1@Run_spec__dia_spec___SinCity2.coverage" NAME="Run spec 'dia_spec': SinCity2 Coverage Results" MODIFIED="1505910745053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="SinCity2" />
+    <SUITE FILE_PATH="coverage/SinCity2@Planta_tipo_Solar_Privada_con_20_empleados__10kws_h_ideal__20__de_nubosidad__altura_de_parcela_0__en_verano_pero_con_un_precio_mundial_de_KW_menor_a_10__________una_planta_Solar_Privada_no_genera_energia__SinCity2.coverage" NAME="Planta tipo Solar Privada con 20 empleados, 10kws/h ideal, 20% de nubosidad, altura de parcela 0, en verano pero con un precio mundial de KW menor a 10,&#10;        una planta Solar Privada no genera energia: SinCity2 Coverage Results" MODIFIED="1505320646569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="SinCity2" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="RSpec Test Template" />
+        <option value="Ruby Class Template" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/Mixins/Plantas/Normal.rb" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/test/Planta_spec.rb" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Ciudad.rb" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/Planta.rb" />
+        <option value="$PROJECT_DIR$/test/Construccion_spec.rb" />
+        <option value="$PROJECT_DIR$/src/Mixins/OtoñoPrimavera.rb" />
+        <option value="$PROJECT_DIR$/src/Mixins/Verano.rb" />
+        <option value="$PROJECT_DIR$/src/Mixins/Invierno.rb" />
+        <option value="$PROJECT_DIR$/src/Mixins/PlantaNormal.rb" />
+        <option value="$PROJECT_DIR$/src/Mixins/Planta.rb" />
+        <option value="$PROJECT_DIR$/src/Mixins/PlantaSolar.rb" />
+        <option value="$PROJECT_DIR$/src/Mixins/PlantaEolica.rb" />
+        <option value="$PROJECT_DIR$/src/Mixins/Plantas/PlantaEolica.rb" />
+        <option value="$PROJECT_DIR$/src/Mixins/CondicionDeSimulacion.rb" />
+        <option value="$PROJECT_DIR$/src/Climatica.rb" />
+        <option value="$PROJECT_DIR$/src/Mixins/Plantas/PlantaSolar.rb" />
+        <option value="$PROJECT_DIR$/src/Mixins/Granja.rb" />
+        <option value="$PROJECT_DIR$/src/Mixins/Holdings.rb" />
+        <option value="$PROJECT_DIR$/src/Mixins/GranjaFamiliar.rb" />
+        <option value="$PROJECT_DIR$/src/Mixins/Holding.rb" />
+        <option value="$PROJECT_DIR$/src/Mixins/Familiar.rb" />
+        <option value="$PROJECT_DIR$/src/Mixins/EcoGranja.rb" />
+        <option value="$PROJECT_DIR$/src/Mixins/Climatica.rb" />
+        <option value="$PROJECT_DIR$/src/Mixins/Propiedad/Publica.rb" />
+        <option value="$PROJECT_DIR$/src/Mixins/Laboral.rb" />
+        <option value="$PROJECT_DIR$/src/Mixins/MercadoInternacional.rb" />
+        <option value="$PROJECT_DIR$/src/CondicionDeSimulacion.rb" />
+        <option value="$PROJECT_DIR$/src/Mixins/Estaciones/Verano.rb" />
+        <option value="$PROJECT_DIR$/src/Mixins/Estaciones/OtoñoPrimavera.rb" />
+        <option value="$PROJECT_DIR$/src/Mixins/Estaciones/Invierno.rb" />
+        <option value="$PROJECT_DIR$/src/Mixins/Propiedad/Privada.rb" />
+        <option value="$PROJECT_DIR$/src/Mixins/clase_prueba.rb" />
+        <option value="$PROJECT_DIR$/test/de prueba_spec.rb" />
+        <option value="$PROJECT_DIR$/src/Mixins/MixinDePrueba.rb" />
+        <option value="$PROJECT_DIR$/src/Mixins/Plantas/Normal.rb" />
+        <option value="$PROJECT_DIR$/src/Mixins/Plantas/Eolica.rb" />
+        <option value="$PROJECT_DIR$/src/Mixins/Plantas/Solar.rb" />
+        <option value="$PROJECT_DIR$/src/Mixins/PerfilResidencia/Consciente.rb" />
+        <option value="$PROJECT_DIR$/src/Mixins/PerfilResidencia/Derrochador.rb" />
+        <option value="$PROJECT_DIR$/test/Residencia_spec.rb" />
+        <option value="$PROJECT_DIR$/test/Granja_spec.rb" />
+        <option value="$PROJECT_DIR$/test/dia_spec.rb" />
+        <option value="$PROJECT_DIR$/src/Parcela.rb" />
+        <option value="$PROJECT_DIR$/src/Mixins/Plantas/Planta.rb" />
+        <option value="$PROJECT_DIR$/src/Mixins/Residencia.rb" />
+        <option value="$PROJECT_DIR$/src/Mixins/Granjas/Familiar.rb" />
+        <option value="$PROJECT_DIR$/src/Mixins/Granjas/EcoGranja.rb" />
+        <option value="$PROJECT_DIR$/src/Mixins/Granjas/Holding.rb" />
+        <option value="$PROJECT_DIR$/src/Mixins/Granjas/Granja.rb" />
+        <option value="$PROJECT_DIR$/src/Construccion.rb" />
+        <option value="$PROJECT_DIR$/test/Planta_spec.rb" />
+        <option value="$PROJECT_DIR$/src/Mixins/CondicionDeSimulacion/Climatica.rb" />
+        <option value="$PROJECT_DIR$/src/Ciudad.rb" />
+        <option value="$PROJECT_DIR$/test/Ciudad_spec.rb" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="98" />
+    <option name="y" value="-20" />
+    <option name="width" value="1376" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Bitwise operation issuesJavaScript</id>
+          </State>
+          <State>
+            <id>CSS</id>
+          </State>
+          <State>
+            <id>Code quality toolsCSS</id>
+          </State>
+          <State>
+            <id>Code quality toolsJavaScript</id>
+          </State>
+          <State>
+            <id>Code style issuesCSS</id>
+          </State>
+          <State>
+            <id>Code style issuesJavaScript</id>
+          </State>
+          <State>
+            <id>DOM issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Error handlingJavaScript</id>
+          </State>
+          <State>
+            <id>Flow type checkerJavaScript</id>
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>HTML</id>
+          </State>
+          <State>
+            <id>Internationalization issues</id>
+          </State>
+          <State>
+            <id>Invalid elementsCSS</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript validity issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsJavaScript</id>
+          </State>
+          <State>
+            <id>Probable bugsJavaScript</id>
+          </State>
+          <State>
+            <id>RegExp</id>
+          </State>
+          <State>
+            <id>Ruby</id>
+          </State>
+          <State>
+            <id>SQL</id>
+          </State>
+          <State>
+            <id>Spelling</id>
+          </State>
+          <State>
+            <id>TypeScript</id>
+          </State>
+          <State>
+            <id>XML</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>SpellCheckingInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="2017s2-grupo5-TP1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2017s2-grupo5-TP1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2017s2-grupo5-TP1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2017s2-grupo5-TP1" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="SearchEverywhereHistoryKey" value="collect&#9;null&#9;null&#10;factorDeA&#9;null&#9;null" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="K:\RubyMine\RubymineProjects\SinCity2(18-9-17)\SinCity2\src\Mixins\CondicionDeSimulacion" />
+      <recent name="E:\RubyMine\RubymineProjects\SinCity2\src\Mixins\Granjas" />
+      <recent name="K:\RubyMine\RubymineProjects\SinCity2\src\Mixins" />
+      <recent name="K:\RubyMine\RubymineProjects\SinCity2\src" />
+      <recent name="K:\RubyMine\RubymineProjects\SinCity2\src\Mixins\Plantas" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="K:\RubyMine\RubymineProjects\SinCity2\test" />
+      <recent name="K:\RubyMine\RubymineProjects\SinCity2\src" />
+      <recent name="K:\RubyMine\RubymineProjects\SinCity2" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="RSpec.Run spec 'Ciudad_spec': SinCity2">
+    <configuration name="Run spec 'Ciudad_spec': SinCity2" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="SinCity2" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/test" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/Ciudad_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+    </configuration>
+    <configuration name="Run spec 'Granja_spec': SinCity2" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="SinCity2" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/test" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/Granja_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+    </configuration>
+    <configuration name="Run spec 'Planta_spec': SinCity2" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="SinCity2" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/test" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/Planta_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+    </configuration>
+    <configuration name="Run spec 'Residencia_spec': SinCity2" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="SinCity2" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/test" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/Residencia_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+    </configuration>
+    <configuration name="Run spec 'dia_spec': SinCity2" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="SinCity2" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/test" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/dia_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="RSpec.Run spec 'Planta_spec': SinCity2" />
+      <item index="1" class="java.lang.String" itemvalue="RSpec.Run spec 'Ciudad_spec': SinCity2" />
+      <item index="2" class="java.lang.String" itemvalue="RSpec.Run spec 'dia_spec': SinCity2" />
+      <item index="3" class="java.lang.String" itemvalue="RSpec.Run spec 'Residencia_spec': SinCity2" />
+      <item index="4" class="java.lang.String" itemvalue="RSpec.Run spec 'Granja_spec': SinCity2" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="RSpec.Run spec 'Ciudad_spec': SinCity2" />
+        <item index="1" class="java.lang.String" itemvalue="RSpec.Run spec 'dia_spec': SinCity2" />
+        <item index="2" class="java.lang.String" itemvalue="RSpec.Run spec 'Granja_spec': SinCity2" />
+        <item index="3" class="java.lang.String" itemvalue="RSpec.Run spec 'Planta_spec': SinCity2" />
+        <item index="4" class="java.lang.String" itemvalue="RSpec.Run spec 'Residencia_spec': SinCity2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fc7f9fe7-07f9-471f-87c8-eef59b099928" name="Default" comment="" />
+      <created>1504638477250</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1504638477250</updated>
+      <workItem from="1504638479279" duration="1378000" />
+      <workItem from="1504717696258" duration="10008000" />
+      <workItem from="1504731948597" duration="1164000" />
+      <workItem from="1504875388409" duration="14547000" />
+      <workItem from="1505156490302" duration="5247000" />
+      <workItem from="1505162005981" duration="3863000" />
+      <workItem from="1505169741799" duration="2873000" />
+      <workItem from="1505312642953" duration="11006000" />
+      <workItem from="1505390991644" duration="9634000" />
+      <workItem from="1505411402190" duration="505000" />
+      <workItem from="1505437393863" duration="736000" />
+      <workItem from="1505479261221" duration="14357000" />
+      <workItem from="1505756738274" duration="9749000" />
+      <workItem from="1505776136727" duration="7290000" />
+      <workItem from="1505845885137" duration="6496000" />
+      <workItem from="1505910417167" duration="335000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Run_spec_'Ciudad_spec'__SinCity2 - 2017.09.19 at 17h 26m 59s.xml">
+      <configuration name="Run spec 'Ciudad_spec': SinCity2" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Run_spec_'Ciudad_spec'__SinCity2 - 2017.09.19 at 17h 27m 18s.xml">
+      <configuration name="Run spec 'Ciudad_spec': SinCity2" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Run_spec_'Ciudad_spec'__SinCity2 - 2017.09.19 at 17h 27m 53s.xml">
+      <configuration name="Run spec 'Ciudad_spec': SinCity2" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Run_spec_'Ciudad_spec'__SinCity2 - 2017.09.20 at 09h 32m 38s.xml">
+      <configuration name="Run spec 'Ciudad_spec': SinCity2" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Run_spec_'Granja_spec'__SinCity2 - 2017.09.20 at 09h 32m 22s.xml">
+      <configuration name="Run spec 'Granja_spec': SinCity2" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Run_spec_'Planta_spec'__SinCity2 - 2017.09.19 at 17h 30m 07s.xml">
+      <configuration name="Run spec 'Planta_spec': SinCity2" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Run_spec_'Planta_spec'__SinCity2 - 2017.09.20 at 09h 32m 18s.xml">
+      <configuration name="Run spec 'Planta_spec': SinCity2" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Run_spec_'Residencia_spec'__SinCity2 - 2017.09.19 at 17h 30m 02s.xml">
+      <configuration name="Run spec 'Residencia_spec': SinCity2" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Run_spec_'Residencia_spec'__SinCity2 - 2017.09.20 at 09h 27m 42s.xml">
+      <configuration name="Run spec 'Residencia_spec': SinCity2" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Run_spec_'dia_spec'__SinCity2 - 2017.09.20 at 09h 32m 28s.xml">
+      <configuration name="Run spec 'dia_spec': SinCity2" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="99188000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19148937" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31191224" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3275862" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="5" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Mixins/Plantas/Eolica.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ciudad.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Ciudad_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="40" lean-forward="true" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Parcela_spec.rb" />
+    <entry file="file://$PROJECT_DIR$/src/Construccion.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Mixins/Plantas/Planta.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Mixins/Plantas/Normal.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Planta_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="61" lean-forward="false" selection-start-line="12" selection-start-column="61" selection-end-line="12" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Parcela.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Board.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/board_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sin uso/Ciudad.rb" />
+    <entry file="file://$PROJECT_DIR$/sin uso/Ciudad_spec.rb" />
+    <entry file="file://$PROJECT_DIR$/test/Construccion_spec.rb" />
+    <entry file="file://$PROJECT_DIR$/sin uso/Ciudad.rb" />
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="11" lean-forward="false" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Board.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Parcela_spec.rb" />
+    <entry file="file://$PROJECT_DIR$/src/Mixins/CondicionDeSimulacion/Estaciones/OtoñoPrimavera.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Mixins/CondicionDeSimulacion/Estaciones/Invierno.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Mixins/clase_prueba.rb" />
+    <entry file="file://$PROJECT_DIR$/src/Mixins/MixinDePrueba.rb" />
+    <entry file="file://$PROJECT_DIR$/test/de prueba_spec.rb" />
+    <entry file="file://$PROJECT_DIR$/test/board_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-319">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Mixins/Plantas/Normal.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="8" lean-forward="false" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/rubystubs24/array.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="897" column="8" lean-forward="false" selection-start-line="897" selection-start-column="8" selection-end-line="897" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Mixins/Granjas/Familiar.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Mixins/Granjas/EcoGranja.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/dia_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1751">
+          <caret line="5" column="47" lean-forward="false" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Mixins/Laboral.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Mixins/Propiedad/Publica.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="27" lean-forward="false" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Mixins/CondicionDeSimulacion/MercadoInternacional.rb" />
+    <entry file="file://$PROJECT_DIR$/test/Residencia_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="77" column="4" lean-forward="true" selection-start-line="77" selection-start-column="4" selection-end-line="82" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Mixins/CondicionDeSimulacion/Climatica.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="30" column="6" lean-forward="false" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Granja_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2125">
+          <caret line="153" column="19" lean-forward="false" selection-start-line="153" selection-start-column="10" selection-end-line="153" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Mixins/PerfilResidencia/Derrochador.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Mixins/CondicionDeSimulacion/Estaciones/Verano.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Mixins/Residencia.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="27" lean-forward="false" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Mixins/Granjas/Granja.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Mixins/PerfilResidencia/Consciente.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Construccion.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Mixins/Plantas/Solar.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51">
+          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Mixins/Granjas/Holding.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Mixins/Propiedad/Privada.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Mixins/Plantas/Eolica.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="48" lean-forward="true" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Parcela.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="15" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Mixins/Plantas/Planta.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="69" lean-forward="true" selection-start-line="8" selection-start-column="69" selection-end-line="8" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CondicionDeSimulacion.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ciudad.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="38" column="61" lean-forward="true" selection-start-line="38" selection-start-column="61" selection-end-line="38" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Planta_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="270" column="45" lean-forward="true" selection-start-line="270" selection-start-column="45" selection-end-line="270" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Ciudad_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="47" column="69" lean-forward="false" selection-start-line="47" selection-start-column="69" selection-end-line="47" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -191,7 +191,7 @@ describe 'Simulacion Dia Laboral Verano' do
 
 
   let(:ciudad) {Ciudad.new(5, 5)}
-  it'...........'do
+  it'Se verifica que cada construccion genere energia, consuma energia y/o produsca alimento segun la condicion'do
     ciudad.agregarParcela(parcela_1).agregarParcela(parcela_2).agregarParcela(parcela_3)
           .agregarParcela(parcela_4).agregarParcela(parcela_5).agregarParcela(parcela_6)
           .agregarParcela(parcela_7).agregarParcela(parcela_8).agregarParcela(parcela_9)
@@ -238,9 +238,5 @@ describe 'Simulacion Dia Laboral Verano' do
     expect(granja_Familiar_Consciente_1.consumoTotalDeEnergia()).to eq(1.8)
 
     unaConstruccion_Planta_Solar_Privada.generarEnergia(unaCondicionDeSimulacion)
-
-    #expect(ciudad.kwProducidos()).to eq(25)
-
-
   end
 end

@@ -31,7 +31,7 @@ describe 'Ciudad' do
   let(:parcela11){Parcela.new 1, 1, 0}
   let(:parcela12){Parcela.new 2, 0, 10}
   let(:parcela13){Parcela.new 2, 1, 50}
-  it 'should Da las parcelas vecinas de la parcela [0,0]' do
+  it 'da las parcelas vecinas de la parcela [0,0]' do
     unaCiudad .agregarParcela(parcela00)
               .agregarParcela(parcela01)
               .agregarParcela(parcela10)
@@ -84,7 +84,7 @@ describe 'Ciudad' do
                                                             .setKwPorHoraIdeal(3)
                                                             .setCotaDeConsumo(9)}
 
-  it ' ' do
+  it 'Se simula bajo una condicion y se verifica los Kw generados, consumidos y el balance' do
     unaCiudad1.agregarParcela(parcela0).agregarParcela(parcela1)
               .agregarParcela(parcela2).agregarParcela(parcela3)
     unaCiudad1.agregarConstruccion(planta_Eolica_Privada)

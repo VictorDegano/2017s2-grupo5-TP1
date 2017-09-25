@@ -1,24 +1,17 @@
 module Granja
 
-  attr_accessor :productoBruto, :gradoAutomatizacion
+  attr_accessor :gradoAutomatizacion
 
+#Produccion de Alimentos
   def generarAlimentos(unaCondicion)
-    @productoBruto  = producirAlimentos(unaCondicion)
-  end
-
-  def setGradoDeAutomatizacion(unGradoDeAutomatizacion)
-    @gradoAutomatizacion = unGradoDeAutomatizacion
-    self
+    @alimentosProducido  = producirAlimentos(unaCondicion)
   end
 
   def factorDeAutomatizacion()
     (100 - @gradoAutomatizacion) / 100.0
   end
 
-  def productoBrutoProducido()
-    @productoBruto
-  end
-
+#Generacion de Energia
   def generarEnergia(unaCondicion)
     @kwProducidos = producirEnergia (unaCondicion)
   end
@@ -27,12 +20,26 @@ module Granja
     0
   end
 
-  def aplicarConsumoDePerfil(unConsumoBase)
+#Consumo de Energia
+  def consumoSegunPerfilDeConsumo(unConsumoBase)
     self.consumoBase
   end
 
-  def consumoTotalDeEnergia
-    @kwConsumidos = (aplicarConsumoDePerfil(consumoBase) * factorDeAutomatizacion).round(1)
+  def consumoTotalDeEnergia(unaCondicion)
+    @kwConsumidos = (consumoSegunPerfilDeConsumo(consumoBase) * factorDeAutomatizacion).round(1)
+  end
+
+#Simulacion
+  def simularDia(unaCondicion)
+    self.generarAlimentos(unaCondicion)
+    self.generarEnergia(unaCondicion)
+    self.consumoTotalDeEnergia(unaCondicion)
+  end
+
+#Setters & Getters
+  def setGradoDeAutomatizacion(unGradoDeAutomatizacion)
+    @gradoAutomatizacion = unGradoDeAutomatizacion
+    self
   end
 
 end

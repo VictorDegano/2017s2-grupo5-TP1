@@ -4,7 +4,7 @@ module OtoñoPrimavera
     11
   end
 
-  def pBFijoDeTemporada
+  def produccionFijaDeTemporada
     4
   end
 
@@ -12,7 +12,7 @@ module OtoñoPrimavera
     false
   end
 
-  def factorConsumoPorEstacion
+  def consumoPorPersonaPorEstacion
     1
   end
 

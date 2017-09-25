@@ -27,10 +27,10 @@ describe 'Planta' do
                                                                                  .setDiaLaboral}
     let (:unaParcela) {Parcela.new 0, 0, 1500}
     let (:unaConstruccion_Planta_Normal_Publica)  {Construccion .new(unaParcela,0)
-                                                        .extend(Publica)
                                                         .extend(Planta)
                                                         .extend(Normal)
-                                                        .setEmpleados(20)
+                                                       .extend(Publica)
+                                                       .setEmpleados(20)
                                                         .setKwHoraEmpleado(2)}
 
     it 'con 20 empleados y 2kws/h por empleado, en un dia genera 960Kw/Dia' do
@@ -161,7 +161,7 @@ describe 'Planta' do
 
   describe 'tipo Normal privada' do
     let (:condicionDeSimulacion) {CondicionDeSimulacion.new(10)
-                                                 .setPrecioMundialKW(12.5)
+                                                 .setPrecioKWMundial(12.5)
                                                  .extend(Climatica)
                                                  .extend(Verano)
                                                  .setNubosidad(0)
@@ -182,7 +182,7 @@ describe 'Planta' do
     end
 
     let (:condicionDeSimulacionDiaFeriado1) {CondicionDeSimulacion.new(10)
-                                                 .setPrecioMundialKW(7)
+                                                 .setPrecioKWMundial(7)
                                                  .extend(Climatica)
                                                  .extend(Verano)
                                                  .setNubosidad(0)
@@ -198,7 +198,7 @@ describe 'Planta' do
 
   describe 'tipo Solar Privada' do
     let (:condicionDeSimulacion1){CondicionDeSimulacion .new(10)
-                                                .setPrecioMundialKW(14)
+                                                .setPrecioKWMundial(14)
                                                 .extend(Climatica)
                                                 .extend(Verano)
                                                 .setNubosidad(0.8)
@@ -233,7 +233,7 @@ describe 'Planta' do
     end
 
     let (:condicionDeSimulacion2){CondicionDeSimulacion .new(10)
-                                                .setPrecioMundialKW(6.3)
+                                                .setPrecioKWMundial(6.3)
                                                 .extend(Climatica)
                                                 .extend(Verano)
                                                 .setNubosidad(0.8)
@@ -252,7 +252,7 @@ describe 'Planta' do
 
   describe 'tipo Eolica Privada' do
     let (:condicionDeSimulacion1){CondicionDeSimulacion .new(10)
-                                                .setPrecioMundialKW(23)
+                                                .setPrecioKWMundial(23)
                                                 .extend(Climatica)
                                                 .extend(Verano)
                                                 .setNubosidad(0.8)
@@ -281,7 +281,7 @@ describe 'Planta' do
     end
 
     let (:condicionDeSimulacion2){CondicionDeSimulacion .new(10)
-                                                .setPrecioMundialKW(10)
+                                                .setPrecioKWMundial(10)
                                                 .extend(Climatica)
                                                 .extend(Verano)
                                                 .setNubosidad(0.8)

@@ -1,18 +1,18 @@
 class CondicionDeSimulacion
 
-  attr_accessor :precioCommodities, :precioMundialKW
+  attr_accessor :precioCommodities, :precioKWMundial
 
   def initialize(unPrecioCommodities)
     @precioCommodities = unPrecioCommodities
   end
 
-  def setPrecioMundialKW(unPrecio)
-    @precioMundialKW = unPrecio
+  def setPrecioKWMundial(unPrecio)
+    @precioKWMundial = unPrecio
     self
   end
 
   def precioKWMundial
-    @precioMundialKW
+    @precioKWMundial
   end
 
 end

@@ -11,31 +11,36 @@ require_relative '../src/Mixins/PerfilResidencia/Consciente'
 require_relative '../src/Mixins/PerfilResidencia/Derrochador'
 
 describe 'Residencia' do
+
   describe 'hogar consciente en verano' do
     let (:condicionDeSimulacion) {CondicionDeSimulacion.new(10).extend(Climatica)
-                                                 .extend(Verano)
-                                                 .setNubosidad(0)
-                                                 .setViento(0)
-                                                 .setTemperatura(0)}
+                                      .extend(Verano)
+                                      .setNubosidad(0)
+                                      .setViento(0)
+                                      .setTemperatura(0)}
     let (:unaParcela) {Parcela.new(0, 0, 1000)}
-    let (:hogar_consciente_con_cota_mayor_al_consumo_base) {Construccion.new(unaParcela, 0)
-                                                                .extend(Residencia)
-                                                                .setCantidadDeMiembrosDeResidencia(4)
-                                                                .setConsumoPorDefecto(condicionDeSimulacion)
-                                                                .extend(Consciente)
-                                                                .setCotaDeConsumo(20)}
-    it 'un hogar con 4 miembros con perfil consciente y una cota de 20kw/dia, en verano consumen 8kw por dia' do
-      expect(hogar_consciente_con_cota_mayor_al_consumo_base.consumoTotalDeEnergia).to eq(8)
+    let (:hogar) {Construccion.new(unaParcela, 0)
+                              .extend(Residencia)
+                              .setCantidadDeMiembrosDeResidencia(4)}
+    it 'un hogar con 4 miembros consume 8kw por dia' do
+      expect(hogar.consumoTotalDeEnergia(condicionDeSimulacion)).to eq(8)
     end
+  end
 
+  describe 'hogar consciente en verano' do
+    let (:condicionDeSimulacion) {CondicionDeSimulacion.new(10).extend(Climatica)
+                                      .extend(Verano)
+                                      .setNubosidad(0)
+                                      .setViento(0)
+                                      .setTemperatura(0)}
+    let (:unaParcela) {Parcela.new(0, 0, 1000)}
     let (:hogar_consciente_con_cota_menor_al_consumo_base) {Construccion.new(unaParcela, 0)
                                                                 .extend(Residencia)
                                                                 .setCantidadDeMiembrosDeResidencia(4)
-                                                                .setConsumoPorDefecto(condicionDeSimulacion)
                                                                 .extend(Consciente)
                                                                 .setCotaDeConsumo(6)}
     it 'un hogar con 4 miembros con perfil consciente y una cota de 6kw/dia, en verano consume 6kw/dia' do
-      expect(hogar_consciente_con_cota_menor_al_consumo_base.consumoTotalDeEnergia).to eq(6)
+      expect(hogar_consciente_con_cota_menor_al_consumo_base.consumoTotalDeEnergia(condicionDeSimulacion)).to eq(6)
     end
   end
 
@@ -49,22 +54,19 @@ describe 'Residencia' do
     let (:hogar_consciente_con_cota_mayor_al_consumo_base) {Construccion.new(unaParcela, 0)
                                                                         .extend(Residencia)
                                                                         .setCantidadDeMiembrosDeResidencia(4)
-                                                                        .setConsumoPorDefecto(condicionDeSimulacion)
                                                                         .extend(Consciente)
                                                                         .setCotaDeConsumo(20)}
-
     it 'un hogar con 4 miembros con perfil consciente y una cota de 20kw/dia, en primavera y otoño consume 4kw/dia' do
-      expect(hogar_consciente_con_cota_mayor_al_consumo_base.consumoTotalDeEnergia).to eq(4)
+      expect(hogar_consciente_con_cota_mayor_al_consumo_base.consumoTotalDeEnergia(condicionDeSimulacion)).to eq(4)
     end
 
     let (:hogar_consciente_con_cota_menor_al_consumo_base) {Construccion.new(unaParcela, 0)
                                                                 .extend(Residencia)
                                                                 .setCantidadDeMiembrosDeResidencia(4)
-                                                                .setConsumoPorDefecto(condicionDeSimulacion)
                                                                 .extend(Consciente)
                                                                 .setCotaDeConsumo(3.5)}
     it 'un hogar con 4 miembros cn perfil consciente y una cota de 3.5kw/dia en primavera consume 3.5kw/dia' do
-      expect(hogar_consciente_con_cota_menor_al_consumo_base.consumoTotalDeEnergia).to eq(3.5)
+      expect(hogar_consciente_con_cota_menor_al_consumo_base.consumoTotalDeEnergia(condicionDeSimulacion)).to eq(3.5)
     end
   end
 
@@ -78,11 +80,10 @@ describe 'Residencia' do
     let (:hogar_derrochador) {Construccion.new(unaParcela, 0)
                                   .extend(Residencia)
                                   .setCantidadDeMiembrosDeResidencia(4)
-                                  .setConsumoPorDefecto(condicionDeSimulacion)
                                   .extend(Derrochador)
                                   .setConsumoExtra(6)}
     it 'un hogar con 4 miembros con perfil derrochador y un consumo extra de 6kw/dia, en verano consume 48kw/dia' do
-      expect(hogar_derrochador.consumoTotalDeEnergia).to eq(48)
+      expect(hogar_derrochador.consumoTotalDeEnergia(condicionDeSimulacion)).to eq(48)
     end
   end
 
@@ -96,11 +97,10 @@ describe 'Residencia' do
     let (:hogar_derrochador) {Construccion.new(unaParcela, 0)
                                   .extend(Residencia)
                                   .setCantidadDeMiembrosDeResidencia(4)
-                                  .setConsumoPorDefecto(condicionDeSimulacion)
                                   .extend(Derrochador)
                                   .setConsumoExtra(6)}
     it 'un hogar c.on 4 miembros con perfil derrochador y un consumo extra de 6kw/dia, en primavera consume 24kw/dia' do
-      expect(hogar_derrochador.consumoTotalDeEnergia).to eq(24)
+      expect(hogar_derrochador.consumoTotalDeEnergia(condicionDeSimulacion)).to eq(24)
     end
 
   end

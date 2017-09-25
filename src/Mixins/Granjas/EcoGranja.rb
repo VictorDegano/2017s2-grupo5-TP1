@@ -1,19 +1,22 @@
 
 module EcoGranja
 
-  attr_accessor :produccionBaseFija
+  attr_accessor :produccionBase
 
+#Produccion de Alimentos
   def producirAlimentos(unaCondicion)
-    @alimentosProducido = (!unaCondicion.esInvierno && (unaCondicion.ratioDeNubosidad < 0.3)) ? @produccionBaseFija : 0
+    (!unaCondicion.esInvierno && (unaCondicion.ratioDeNubosidad < 0.3)) ? @produccionBase : 0
   end
 
-  def setProduccionBaseFija(unaProduccionBaseFija)
-    @produccionBaseFija = unaProduccionBaseFija
-    self
-  end
-
-  def consumoTotalDeEnergia
+#Consumo de energia
+  def consumoBase
     0
+  end
+
+#Getters & Setters
+  def setProduccionBase(unaProduccionBase)
+    @produccionBase = unaProduccionBase
+    self
   end
 
 end

@@ -4,7 +4,7 @@ module Verano
     13
   end
 
-  def pBFijoDeTemporada
+  def produccionFijaDeTemporada
     5
   end
 
@@ -12,7 +12,7 @@ module Verano
     false
   end
 
-  def factorConsumoPorEstacion
+  def consumoPorPersonaPorEstacion
     2
   end
 

@@ -1,6 +1,11 @@
 module Laboral
   attr_accessor :diaLaboral
 
+  def esDiaLaboral
+    @diaLaboral
+  end
+
+#Getters & Setters
   def setDiaLaboral
     @diaLaboral = true
     self
@@ -10,9 +15,4 @@ module Laboral
     @diaLaboral = false
     self
   end
-
-  def esDiaLaboral
-    @diaLaboral
-  end
-
 end

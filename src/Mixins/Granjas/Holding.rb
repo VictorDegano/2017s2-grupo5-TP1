@@ -3,17 +3,20 @@ module Holding
 
   attr_accessor :consumoPorDefecto
 
+#Produccion de Alimentos
   def producirAlimentos(unaCondicion)
-    @alimentosProducido = 6.0 * unaCondicion.precioCommodities / 100 * @gradoAutomatizacion
+    6.0 * unaCondicion.precioCommodities / 100 * @gradoAutomatizacion
   end
 
+#Consumo de energia
+  def consumoBase
+    @consumoPorDefecto
+  end
+
+#Getters & Setters
   def setConsumoFijo(unConsumoFijo)
     @consumoPorDefecto  = unConsumoFijo
     self
-  end
-
-  def consumoBase
-    @consumoPorDefecto
   end
 
 end

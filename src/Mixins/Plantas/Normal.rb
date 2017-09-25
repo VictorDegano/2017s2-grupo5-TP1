@@ -7,13 +7,14 @@ module Normal
     kwPorHora * 24
   end
 
+  def kwPorHora
+    @empleados * @kwHoraEmpleado
+  end
+
+ #Setter
   def setKwHoraEmpleado(unaCantidadGenerada)
     @kwHoraEmpleado = unaCantidadGenerada
     self
-  end
-
-  def kwPorHora
-    @empleados * @kwHoraEmpleado
   end
 
 end

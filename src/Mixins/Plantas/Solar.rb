@@ -6,11 +6,6 @@ module Solar
     (efectividadDeProduccionPorNubosidad(unaCondicion) * kwPorHoraIdeal * unaCondicion.horasDeSol * factorDeAltura).round(1)
   end
 
-  def setKwPorHoraIdeal(unKwPorHoraIdeal)
-    @kwPorHoraIdeal = unKwPorHoraIdeal
-    self
-  end
-
   def kwPorHoraIdeal
     @kwPorHoraIdeal
   end
@@ -24,4 +19,9 @@ module Solar
     1.0 - unaCondicion.ratioDeNubosidad()
   end
 
+#Getters & Setters
+  def setKwPorHoraIdeal(unKwPorHoraIdeal)
+    @kwPorHoraIdeal = unKwPorHoraIdeal
+    self
+  end
 end

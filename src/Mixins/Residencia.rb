@@ -1,6 +1,21 @@
 module Residencia
-  attr_accessor :miembros, :consumoPorDefecto
+  attr_accessor :miembros
 
+  def consumoTotalDeEnergia(condicionClima)
+    consumoPorDefecto = self.cantidadMiembros * condicionClima.consumoPorPersonaPorEstacion
+    @kwConsumidos = consumoSegunPerfilDeConsumo(consumoPorDefecto)
+  end
+
+  def consumoSegunPerfilDeConsumo(unConsumoBase)
+    unConsumoBase
+  end
+
+#Simulacion
+  def simularDia(unaCondicion)
+    self.consumoTotalDeEnergia(unaCondicion)
+  end
+
+#Getters & Satters
   def setCantidadDeMiembrosDeResidencia(unaCantidad)
     @miembros = unaCantidad
     self
@@ -9,14 +24,4 @@ module Residencia
   def cantidadMiembros
     @miembros
   end
-
-  def setConsumoPorDefecto(condicionClima)
-    @consumoPorDefecto = self.cantidadMiembros * condicionClima.factorConsumoPorEstacion
-    self
-  end
-
-  def consumoTotalDeEnergia
-    @kwConsumidos = aplicarConsumoDePerfil(@consumoPorDefecto)
-  end
-
 end

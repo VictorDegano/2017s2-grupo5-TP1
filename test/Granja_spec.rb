@@ -30,7 +30,7 @@ describe 'Granjas' do
 
     it 'Bajo un precio commodities de 10 y una automatizacion del 30% genera un PB de 18' do
       granja_Tipo_Holding.generarAlimentos(unaCondicionDeSimulacion)
-      expect(granja_Tipo_Holding.productoBrutoProducido).to eq(18)
+      expect(granja_Tipo_Holding.alimentosProducido).to eq(18)
     end
 
     it 'No genera energia' do
@@ -38,7 +38,7 @@ describe 'Granjas' do
     end
 
     it 'Con una automatizacion del 30% y un consumo fijo de 15, Consume 10.5kw' do
-      expect(granja_Tipo_Holding.consumoTotalDeEnergia).to eq(10.5)
+      expect(granja_Tipo_Holding.consumoTotalDeEnergia(unaCondicionDeSimulacion)).to eq(10.5)
     end
 
   end
@@ -55,23 +55,23 @@ describe 'Granjas' do
 
     it 'en verano y con una produccion base de 5, genera 25 PB' do
       granja_Tipo_Familiar.generarAlimentos(unaCondicionDeSimulacionVeraniega)
-      expect(granja_Tipo_Familiar.productoBrutoProducido).to eq(25)
+      expect(granja_Tipo_Familiar.alimentosProducido).to eq(25)
     end
 
     let(:unaCondicionDeSimulacionInvernal){CondicionDeSimulacion.new(10).extend(Climatica).extend(Invierno)}
     it 'en invierno genera 10 PB' do
       granja_Tipo_Familiar.generarAlimentos(unaCondicionDeSimulacionInvernal)
-      expect(granja_Tipo_Familiar.productoBrutoProducido).to eq(10)
+      expect(granja_Tipo_Familiar.alimentosProducido).to eq(10)
     end
 
     let(:unaCondicionDeSimulacionOtoPrimaveral){CondicionDeSimulacion.new(10).extend(Climatica).extend(OtoñoPrimavera)}
     it 'en invierno genera 10 PB' do
       granja_Tipo_Familiar.generarAlimentos(unaCondicionDeSimulacionOtoPrimaveral)
-      expect(granja_Tipo_Familiar.productoBrutoProducido).to eq(20)
+      expect(granja_Tipo_Familiar.alimentosProducido).to eq(20)
     end
 
     it 'Con una produccion Base de 2.6 y una automatizacion del 30%, consume 1.8Kw' do
-      expect(granja_Tipo_Familiar.consumoTotalDeEnergia).to eq(1.8)
+      expect(granja_Tipo_Familiar.consumoTotalDeEnergia(unaCondicionDeSimulacionOtoPrimaveral)).to eq(1.8)
     end
 
   end
@@ -82,29 +82,29 @@ describe 'Granjas' do
     let(:parcela){Parcela.new(0,0,1500)}
     let(:granja_Tipo_EcoGranja) {Construccion .new(:parcela, 1.3)
                                    .extend(Granja)
-                                   .extend(EcoGranja).setProduccionBaseFija(5)}
+                                   .extend(EcoGranja).setProduccionBase(5)}
 
     it 'en invierno y con nubosidad al 80% no produce nada' do
       granja_Tipo_EcoGranja.generarAlimentos(unaCondicionDeSimulacionNubosaInvernal)
-      expect(granja_Tipo_EcoGranja.productoBrutoProducido).to eq(0)
+      expect(granja_Tipo_EcoGranja.alimentosProducido).to eq(0)
     end
 
     let(:unaCondicionDeSimulacionInvernal){CondicionDeSimulacion.new(10).extend(Climatica).extend(Invierno).setNubosidad(0.2)}
     it 'en invierno y con nubosidad menor a 30% no produce nada' do
       granja_Tipo_EcoGranja.generarAlimentos(unaCondicionDeSimulacionInvernal)
-      expect(granja_Tipo_EcoGranja.productoBrutoProducido).to eq(0)
+      expect(granja_Tipo_EcoGranja.alimentosProducido).to eq(0)
     end
 
     let(:unaCondicionDeSimulacionNubosa){CondicionDeSimulacion.new(10).extend(Climatica).extend(Verano).setNubosidad(0.3)}
     it 'sin ser invierno y con nubosidad mayor o igual a 30% no produce nada' do
       granja_Tipo_EcoGranja.generarAlimentos(unaCondicionDeSimulacionNubosa)
-      expect(granja_Tipo_EcoGranja.productoBrutoProducido).to eq(0)
+      expect(granja_Tipo_EcoGranja.alimentosProducido).to eq(0)
     end
 
     let(:unaCondicionDeSimulacionPrometedora){CondicionDeSimulacion.new(10).extend(Climatica).extend(Verano).setNubosidad(0.2)}
     it 'Con una produccion fija de 5 y sin ser invierno y con nubosidad menor a 30% produce 5' do
       granja_Tipo_EcoGranja.generarAlimentos(unaCondicionDeSimulacionPrometedora)
-      expect(granja_Tipo_EcoGranja.productoBrutoProducido).to eq(5)
+      expect(granja_Tipo_EcoGranja.alimentosProducido).to eq(5)
     end
 
   end
@@ -204,7 +204,7 @@ describe 'Granjas' do
                                             .setConsumoExtra(3)}
 
      it 'Con una produccion Base de 2.6, una automatizacion del 30% y un perfil derrochador de 3 veces su consumo, consume 5.5Kw' do
-      expect(granja_Tipo_Familiar_Derrochador.consumoTotalDeEnergia).to eq(5.5)
+      expect(granja_Tipo_Familiar_Derrochador.consumoTotalDeEnergia(unaCondicionDeSimulacionVeraniega)).to eq(5.5)
      end
 
     let(:granja_Tipo_Familiar_Consciente_Con_Automatizacion_30) {Construccion.new(:parcela, 1)
@@ -216,7 +216,7 @@ describe 'Granjas' do
                                                 .setCotaDeConsumo(5)}
 
     it 'Con una produccion Base de 5, una automatizacion del 30% y un perfil consciente con cota e 5kw, consume 1.8Kw' do
-      expect(granja_Tipo_Familiar_Consciente_Con_Automatizacion_30.consumoTotalDeEnergia).to eq(1.8)
+      expect(granja_Tipo_Familiar_Consciente_Con_Automatizacion_30.consumoTotalDeEnergia(unaCondicionDeSimulacionVeraniega)).to eq(1.8)
     end
 
     let(:granja_Tipo_Familiar_Consciente_Con_Automatizacion_40) {Construccion.new(:parcela, 1)
@@ -228,34 +228,37 @@ describe 'Granjas' do
                                                .setCotaDeConsumo(5)}
 
     it 'Con una produccion Base de 80, una automatizacion del 40% y un perfil consciente con cota e 5kw, consume 3Kw' do
-      expect(granja_Tipo_Familiar_Consciente_Con_Automatizacion_40.consumoTotalDeEnergia).to eq(3)
+      expect(granja_Tipo_Familiar_Consciente_Con_Automatizacion_40.consumoTotalDeEnergia(unaCondicionDeSimulacionVeraniega)).to eq(3)
     end
 
   end
 
   describe 'tipo EcoGranja' do
 
+    let(:unaCondicionDeSimulacionVeraniega){CondicionDeSimulacion.new(10).extend(Climatica).extend(Verano)}
     let(:parcela){Parcela.new(0,0,1500)}
     let(:granja_Tipo_EcoGranja_Derrochadora) {Construccion  .new(:parcela, 1.3)
                                                             .extend(Granja)
                                                             .extend(EcoGranja)
                                                             .extend(Derrochador)
-                                                            .setProduccionBaseFija(5)
-                                                            .setConsumoExtra(5)}
+                                                            .setProduccionBase(5)
+                                                            .setConsumoExtra(5)
+                                                            .setGradoDeAutomatizacion(10)}
 
     it 'una eco granja derrochadora no consume energia' do
-    expect(granja_Tipo_EcoGranja_Derrochadora.consumoTotalDeEnergia).to eq(0)
+    expect(granja_Tipo_EcoGranja_Derrochadora.consumoTotalDeEnergia(unaCondicionDeSimulacionVeraniega)).to eq(0)
     end
 
     let(:granja_Tipo_EcoGranja_Consciente) {Construccion  .new(:parcela, 1.3)
                                                           .extend(Granja)
                                                           .extend(EcoGranja)
                                                           .extend(Consciente)
-                                                          .setProduccionBaseFija(5)
-                                                          .setCotaDeConsumo(5)}
+                                                          .setProduccionBase(5)
+                                                          .setCotaDeConsumo(5)
+                                                          .setGradoDeAutomatizacion(10)}
 
-    it 'una eco granja derrochadora no consume energia' do
-      expect(granja_Tipo_EcoGranja_Consciente.consumoTotalDeEnergia).to eq(0)
+    it 'una eco granja consciente no consume energia' do
+      expect(granja_Tipo_EcoGranja_Consciente.consumoTotalDeEnergia(unaCondicionDeSimulacionVeraniega)).to eq(0)
     end
 
   end
@@ -289,7 +292,7 @@ describe 'Granjas' do
     end
 
     it 'Con un consumo de 3.3, un automatizacion del 30% y una cota de consumo de 5, consume 2.3kw ' do
-      expect(granja_Tipo_Familiar_Consciente_Solar.consumoTotalDeEnergia).to eq(2.3)
+      expect(granja_Tipo_Familiar_Consciente_Solar.consumoTotalDeEnergia(condicionDeSimulacion)).to eq(2.3)
     end
   end
 

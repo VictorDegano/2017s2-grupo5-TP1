@@ -4,7 +4,7 @@ module Invierno
     10
   end
 
-  def pBFijoDeTemporada
+  def produccionFijaDeTemporada
     2
   end
 
@@ -12,7 +12,7 @@ module Invierno
     true
   end
 
-  def factorConsumoPorEstacion
+  def consumoPorPersonaPorEstacion
     2
   end
 
